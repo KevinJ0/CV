@@ -65,6 +65,7 @@ header .left .name {
   margin: 1em 1em 0px 0px;
   display: block;
   padding-left: 3%;
+  width: 100%;
 }
 
 header .left .career {
@@ -83,6 +84,7 @@ header .left .career {
   font-family: DejaVu Sans;
   font-size: 70%;
   padding-left: 3%;
+  width: 100%;
 }
 
 header .right {
@@ -230,7 +232,6 @@ header .right .contact p a {
   height: 100%;
   box-sizing: border-box;
   padding: 2.5% 0px 0px 1.8em;
-
 }
 
 .wrap .main .educacion .right h3 {
@@ -280,8 +281,7 @@ header .right .contact p a {
 }
 
 @media screen and (max-width:606px) {
-  body {
-  }
+  body {}
   .contenedor {
     width: 90%;
     margin: auto;
@@ -373,32 +373,27 @@ header .right .contact p a {
     float: right;
     font-size: 100%;
   }
-
   .wrap .main .experiencia .right h3 {
     font-size: 0.9em;
     font-family: Arial;
   }
-
   .wrap .main .experiencia .right p {
-font-size: 0.8em;    font-family: Arial;
+    font-size: 0.8em;
+    font-family: Arial;
   }
-
-    .wrap .main .educacion .right h3 {
-      font-size: 0.9em;
-      font-family: Arial;
-    }
-
-    .wrap .main .educacion .right p {
-      font-size: 0.8em;
-      font-family: Arial;
-    }
-
-      .wrap .main .conocimientos .right li  {
-        font-size: 0.9em;
-        font-family: Arial;
-      }
-
-      .wrap .main .conocimientos .right li ul  {
-        font-size: 0.8em;
-        font-family: Arial;
-      }
+  .wrap .main .educacion .right h3 {
+    font-size: 0.9em;
+    font-family: Arial;
+  }
+  .wrap .main .educacion .right p {
+    font-size: 0.8em;
+    font-family: Arial;
+  }
+  .wrap .main .conocimientos .right li {
+    font-size: 0.9em;
+    font-family: Arial;
+  }
+  .wrap .main .conocimientos .right li ul {
+    font-size: 0.8em;
+    font-family: Arial;
+  }
