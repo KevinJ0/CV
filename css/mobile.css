@@ -1,0 +1,79 @@
+@media screen and (max-width:606px) {
+
+    header {
+        height: 30em;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    header .imagen {
+        display: grid;
+        width: 100%;
+        height: auto;
+    }
+    header .imagen img {
+        width: 30%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 4%;
+    }
+    header .left {
+        float: left;
+        width: 100%;
+        height: 20%;
+    }
+    header .right {
+        float: left;
+        width: 100%;
+        height: 20%;
+    }
+    header .right .contact {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+    }
+    header .right .contact .git {
+        margin-top: 2%;
+    }
+    header .right .contact .gmail,
+    .git {
+        width: auto;
+        height: auto;
+        position: relative;
+        padding: 0;
+        top: 0;
+        bottom: 0;
+        justify-content: center;
+        display: flex;
+    }
+    header .right .contact .git img,
+    .gmail img {
+        padding: 0;
+        margin: 0;
+        margin-right: 0.3em;
+    }
+    header .right .contact .gmail p,
+    .git p {
+        max-width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+    .wrap .main .experiencia .left h2,
+    .educacion .left h2,
+    .conocimientos .left h2 {
+        float: right;
+        font-size: 90%;
+    }
+    .wrap .main .experiencia .right p,
+    .educacion .right p,
+    .conocimientos .right li ul {
+        font-size: 0.8em;
+        font-family: Arial;
+    }
+    .wrap .main .conocimientos .right li,
+    .educacion .right h3,
+    .experiencia .right h3 {
+        font-size: 0.9em;
+        font-family: Arial;
+    }
+}
