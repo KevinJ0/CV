@@ -3,11 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Currilum</title>
-  <meta name="description" content="Este es mi Curriculo de vida">
+  <title>Profile card</title>
+  <meta name="description" content="Este es mi perfil profesional">
   <meta name="viewport" content="width=device-width, use-scalable=no, maximun-scale=1.0,minimun-scale=1.0, initial-scale=1.0 ">
-  <link rel="stylesheet" href="./css/master.css">
-
+  <link rel="stylesheet" href="./css/master.css" />
+  <link rel="stylesheet" href="./css/mobile.css" />
+  <link rel="stylesheet" href="fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <style media="screen">
     @font-face {
       font-family: OpenSansCondensed-Light;
@@ -19,87 +21,29 @@
       src: url(fuentes/Cinzel-Regular.ttf);
     }
   </style>
-
 </head>
 
 <body>
-  <div class="contenedor">
+  <div class="wrapper">
+    <div class="box">
+      <img class='box-img' src="imagenes/profile1.jpg">
+      <h1>Kevin J. </h1>
+      <h5>Desarrollador Web</h5>
+      <p>Soy un desarrollador web y de programas de escritorio que Trabajo con el framework Django por el momento. Utilizo JavaSE
+        para elaborar sotfware de escritorio y MySql como gestor de base de datos preferida. Actualmente estoy estudiando
+        Ing. Sistemas y Computación.</p>
 
-    <header>
-      <div class="imagen">
-        <img src="imagenes/foto.jpg">
-      </div>
+      <ul>
+        <li>
+          <a href="https://github.com/KevinJ0 " target="_blank">
+            <i class="fab fa-github" id="github"></i>
+          </a>
+        </li>
+      </ul>
 
-      <div class="left">
-        <div class="name">
-          <h1>Kevin J. Rosario
-          </h1>
-        </div>
-        <div class="career">
-          <h2>Desarrollor de software</h2>
-        </div>
-      </div>
-
-      <div class="right">
-        <div class="contact">
-          <div class="gmail">
-            <img src="imagenes/gmail-icon.png" alt="">
-            <p><a href="# ">Kevinjooo59@gmail.com</a></p>
-          </div>
-
-          <div class="git">
-            <img src="imagenes/github.png " alt=" ">
-            <p><a href="https://github.com/KevinJ0 " target="_blank ">KevinJ0</a></p>
-          </div>
-        </div>
-      </div>
-
-    </header>
-
-    <section class="wrap ">
-      <section class="main ">
-        <div class="experiencia ">
-          <div class="left ">
-            <h2>EXPERIENCIA</h2>
-          </div>
-          <div class="right ">
-            <h3>TÉCNICO REPARACIÓN DE COMPUTADORAS</h3>
-            <p>ServiTech</p>
-          </div>
-        </div>
-
-        <div class="educacion ">
-          <div class="left ">
-            <h2>EDUCACIÓN</h2>
-          </div>
-          <div class="right ">
-            <h3>TÉCNICO PROFESIONAL EN INFORMÁTICA</h3>
-            <p>Liceo Técnico Calasanz San Eduardo <br>2010-2016</p>
-            <h3>Universidad O&M</h3>
-            <p>Actualmente estudiando Ingeniería en Sistema y Computación </p>
-          </div>
-        </div>
-
-        <div class="conocimientos ">
-          <div class="left ">
-            <h2>CONOCIMIENTOS</h2>
-          </div>
-          <div class="right ">
-            <ul>
-              <li>Soporte Técnico</li>
-              <li>Reparación de PC</li>
-              <li>Desarrollo de Sistemas de finanzas</li>
-              <li>Java SE</li>
-              <li>Git and GitHub</li>
-              <li>Oracle Data Base</li>
-              <li>MySQL</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </section>
-
-
+      <a class="box-button" href="details.html">Ver más</a>
+    </div>
+  </div>
   </div>
 </body>
 
