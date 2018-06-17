@@ -25,7 +25,7 @@ html {
     }
 }
 
-@media All and (max-width: 920px) {
+@media All and (max-width: 1200px) {
     html {
         min-width: 280px;
         background-size: 200%, 200%;
