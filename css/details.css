@@ -33,7 +33,6 @@ html {
     }
     body {
         display: flex;
-        
         margin: auto;
         justify-content: center;
     }
@@ -64,7 +63,7 @@ html {
         width: 50%;
     }
     body .wrapper .box-content .educacion p {
-        font-size: 80%;
+        font-size: 90%;
         line-height: 100%;
     }
     body .wrapper .box-content #conocimientos,
@@ -103,7 +102,7 @@ html {
 }
 
 .box-img h1 {
-    color: rgb(227, 227, 230);
+    color: white;
     padding: 0;
     margin: 0;
     line-height: 40px;
@@ -207,7 +206,7 @@ html {
     padding-bottom: 3px;
     padding-left: 1%;
     padding-top: 1.5em;
-    color: rgb(227, 227, 230);
+    color: white;
     margin-top: 1rem;
     border-bottom: solid 3px rgb(2, 212, 89);
     background: rgba(0, 0, 0, 0.3);
